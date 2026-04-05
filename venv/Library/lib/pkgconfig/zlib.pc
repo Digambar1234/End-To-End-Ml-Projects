@@ -1,0 +1,13 @@
+prefix=D:/End-To-End-Ml-Projects/venv/Library
+exec_prefix=D:/End-To-End-Ml-Projects/venv/Library
+libdir=D:/End-To-End-Ml-Projects/venv/Library/lib
+sharedlibdir=D:/End-To-End-Ml-Projects/venv/Library/lib
+includedir=D:/End-To-End-Ml-Projects/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
